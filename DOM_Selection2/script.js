@@ -1,9 +1,9 @@
 // document.querySelector() --> element
 // const p4 = document.querySelector('#b p');
 // p4.style.color = 'green';
-// p4.style.fontSize = '30px';
+// p4.style.fontSize = '20px';
 
-// const li2 = document.querySelector('section#b ul li:nth-child(2)');
+// const li2 = document.querySelector('section#b ul li:nth-child(1)');
 // li2.style.backgroundColor = "grey";
 // li2.style.fontSize = '25px';
 
