@@ -3,7 +3,7 @@
 const judul = document.getElementById('judul');
 judul.style.color = 'red';
 judul.style.backgroundColor = '#ccc'
-judul.innerHTML = 'Aziz Kurniawan';
+judul.innerHTML = 'Aziz Kurniawan Funkkeh';
 
 //document.getElementsByTagName
 // --> HTMLCollections
@@ -13,7 +13,7 @@ for(let i = 0; i < p.length; i++) {
 }
 
 const h1 = document.getElementsByTagName('h1')[0];
-h1.style.fontSize = '50px';
+h1.style.fontSize = '30px';
 
 //document.getElementsByClassName
 // -> HTMLCollection
