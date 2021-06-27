@@ -26,17 +26,15 @@ const link = document.getElementsByTagName('a')[0];
 sectionA.removeChild(link);
 
 //replace / mengganti
-const sectionB = document.getElementById('b');
-const p4 = sectionB.querySelector('p');
-
 const h2Baru = document.createElement('h2');
 const teksH2Baru = document.createTextNode('Judul Baru!');
 
 h2Baru.appendChild(teksH2Baru);
 
+const sectionB = document.getElementById('b');
+const p4 = sectionB.querySelector('p');
+
 sectionB.replaceChild(h2Baru, p4);
-
-
 
 //menandai mana aja yang udah dirubah
 h2Baru.style.backgroundColor = 'lightblue';
