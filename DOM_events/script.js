@@ -14,15 +14,19 @@
 // p2.onclick = ubahWarnaP2;
 
 // //eventListener
-// const p4 = document.querySelector('section#b p');
-// p4.addEventListener('click', function() {
-//     const ul = document.querySelector('section#b ul');
-//     const liBaru = document.createElement('li');
-//     const teksLiBaru = document.createTextNode('Text baru');
+const p4 = document.querySelector('section#b p');
+p4.addEventListener('click', function() {
+    const ul = document.querySelector('section#b ul');
+    const liBaru = document.createElement('li');
+    const teksLiBaru = document.createTextNode('Text baru');
 
-//     liBaru.appendChild(teksLiBaru);
-//     ul.appendChild(liBaru);
-// })
+    liBaru.appendChild(teksLiBaru);
+    ul.appendChild(liBaru);
+})
+
+p4.addEventListener('click', function() {
+    p3.style.backgroundColor = 'lightblue';
+})
 
 //Perbedaan eventHandler & addEventListener
 //Kalo di eventHandler
