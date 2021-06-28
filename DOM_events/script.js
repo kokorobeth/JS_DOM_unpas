@@ -25,7 +25,7 @@ p4.addEventListener('click', function() {
 })
 
 p4.addEventListener('click', function() {
-    p3.style.backgroundColor = 'lightblue';
+    p4.style.backgroundColor = 'lightblue';
 })
 
 //Perbedaan eventHandler & addEventListener
