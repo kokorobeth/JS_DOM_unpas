@@ -5,6 +5,7 @@ tUbahWarna.onclick = function() {
     document.body.classList.toggle('biru-muda');
 }
 
+
 const tAcakWarna = document.createElement('button');
 const teksTombol = document.createTextNode('Acak Warna');
 
@@ -19,6 +20,7 @@ tAcakWarna.addEventListener('click', function() {
     document.body.style.backgroundColor = 'rgb('+ r +', '+ g +', '+ b +')';
 })
 
+//Acak warna berdasarkan slider
 const sMerah = document.querySelector('input[name=sMerah]');
 const sHijau = document.querySelector('input[name=sHijau]');
 const sBiru = document.querySelector('input[name=sBiru]');
@@ -42,6 +44,7 @@ sBiru.addEventListener('input', function() {
     document.body.style.backgroundColor = 'rgb('+r+','+g+','+b+')';
 });
 
+//Acak warna berdasarkan sumbu x dan y
 document.body.addEventListener('mousemove', function(event) {
     //posisi Mouse
     // console.log(event.clientY);
@@ -51,5 +54,5 @@ document.body.addEventListener('mousemove', function(event) {
     const yPos = Math.round((event.clientY / window.innerHeight) * 255);
 
     document.body.style.backgroundColor = 'rgb('+ xPos +','+ yPos +', 100)';
-    
+
 });
