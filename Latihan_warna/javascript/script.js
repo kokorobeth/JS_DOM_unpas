@@ -5,7 +5,7 @@ tUbahWarna.onclick = function() {
     document.body.classList.toggle('biru-muda');
 }
 
-
+//Acak warna dengan button Acak
 const tAcakWarna = document.createElement('button');
 const teksTombol = document.createTextNode('Acak Warna');
 
