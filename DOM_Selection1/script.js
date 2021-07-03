@@ -2,14 +2,14 @@
 //document.getElementById()
 const judul = document.getElementById('judul');
 judul.style.color = 'blue';
-judul.style.backgroundColor = 'lightgreen';
-judul.innerHTML = 'Max Kurniawan';
+judul.style.backgroundColor = 'lightblue';
+judul.innerHTML = 'Max Kurniawan Funkkeh';
 
 //document.getElementsByTagName
 // --> HTMLCollections
 const p = document.getElementsByTagName('p');
 for(let i = 0; i < p.length; i++) {
-    p[i].style.backgroundColor = 'lightblue';
+    p[i].style.backgroundColor = 'lightgreen';
 }
 
 const h1 = document.getElementsByTagName('h1')[0];
