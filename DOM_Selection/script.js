@@ -2,7 +2,7 @@
 //document.getElementById()
 const judul = document.getElementById('judul');
 judul.style.color = 'blue';
-judul.style.backgroundColor = '#ccc';
+judul.style.backgroundColor = 'lightgreen';
 judul.innerHTML = 'Max Kurniawan';
 
 //document.getElementsByTagName
