@@ -4,7 +4,7 @@
 // p4.style.fontSize = '20px';
 
 const li2 = document.querySelector('section#b ul li:nth-child(2)');
-li2.style.backgroundColor = "grey";
+li2.style.backgroundColor = "lightgreen";
 li2.style.fontSize = '25px';
 
 // document.querySelectorAll()
