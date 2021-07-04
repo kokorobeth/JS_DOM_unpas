@@ -9,8 +9,9 @@ for(let i = 0; i < p.length; i++) {
 }
 
 const li2 = document.querySelector("section#b ul li:nth-child(2)");
-li2.style.fontSize = "35px";
-li2.style.backgroundColor = "lightblue";
+li2.style.color = "grey";
+li2.style.fontSize = "25px";
+li2.style.backgroundColor = "lightgreen";
 
 const sectionB = document.querySelector("section#b");
 const p4 = sectionB.getElementsByTagName('p')[0];
