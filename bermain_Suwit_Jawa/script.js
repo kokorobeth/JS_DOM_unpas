@@ -30,8 +30,6 @@ function putar() {
 
 const pilihan = document.querySelectorAll('li img');
 pilihan.forEach(function(pil) {
-
-    
     pil.addEventListener('click', function() {
         const pilihanComputer = getpilihanComputer();
         const pilihanPlayer = pil.className;
