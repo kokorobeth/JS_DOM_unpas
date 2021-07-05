@@ -1,15 +1,16 @@
 const pBaru = document.createElement('p');
 const teksPBaru = document.createTextNode('Paragraf Baru');
 pBaru.appendChild(teksPBaru);
-pBaru.style.backgroundColor = "lightblue";
+pBaru.style.backgroundColor = "lightgreen";
 
 const sectionA = document.getElementById('a');
 sectionA.appendChild(pBaru);
 
 
 const liBaru = document.createElement('li');
-const teksLiBaru = document.createTextNode('Teks baru');
-liBaru.appendChild(teksLiBaru);
+// const teksLiBaru = document.createTextNode('Teks New');
+liBaru.textContent = "New Text!";
+document.body.appendChild(liBaru);
 
 const ul = document.querySelector("section#b ul")
 const li2 = ul.querySelector('li:nth-child(2)');
