@@ -17,3 +17,4 @@ p1.innerHTML = 'dirubah menjadi JavaScript';
 
 const p4 = document.getElementsByClassName('p4')[0];
 p4.innerHTML = 'dirubah juga menjadi JavaScript';
+

@@ -12,6 +12,7 @@ const liBaru = document.createElement('li');
 liBaru.textContent = "New Text!";
 document.body.appendChild(liBaru);
 
+// memasukan element sebelum element lainnya
 const ul = document.querySelector("section#b ul")
 const li2 = ul.querySelector('li:nth-child(2)');
 ul.insertBefore(liBaru, li2);
